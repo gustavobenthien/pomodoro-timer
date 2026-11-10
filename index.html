@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div>
+			<p>Pomodoro Timer</p>
+			
+			<button	class = "pomodoro-timer"
+							onclick = "runTimer(timer.pomodoro);"
+			>Pomodoro</button>
+			
+			<button class = "pause-timer"
+							onclick = "runTimer(timer.pause);"
+			>Pause</button>
+			
+			<button class = "long-pause-timer"
+							onclick = "runTimer(timer.longPause)"
+			>Long Pause</button>
+			
+			<img alt = "Configuration">	
+			
+			<p class = "js-timer"></p>
+		</div>
+
+		<script src = "pomodoro.js"></script>
+	</body>
+</html>
